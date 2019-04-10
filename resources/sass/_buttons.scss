@@ -1,0 +1,48 @@
+.btn-login-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.btn-nc {
+    float: right;
+    margin: 20px 30px;
+    background-color: #0585FB;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px black;
+    outline: none;
+}
+
+.btn-sm:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.btn-filtro {
+    padding: 2px 8px;
+    border-radius: 5px;
+    float: right;
+    color: black;
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    margin: 20px 30px;
+    outline: none;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+span.filtro {
+    font-size: 19px;
+}
+
+i.fa.fa-filter {
+    color: $filter;
+    font-size: 24px;
+}

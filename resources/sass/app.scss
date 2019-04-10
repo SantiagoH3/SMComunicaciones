@@ -8,6 +8,16 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Pages
+
+@import 'login';
+@import 'clientes';
+@import 'table';
+@import 'buttons';
+@import 'forms';
+@import 'navbar';
+@import 'nuevoForm';
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
